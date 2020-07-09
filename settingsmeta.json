@@ -1,0 +1,17 @@
+{
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Default Speaker",
+                "fields": [
+                    {
+                        "name": "default_name",
+                        "type": "text",
+                        "label": "name of speaker",
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

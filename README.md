@@ -1,6 +1,6 @@
-# sonos-controller
-A simple mycroft skill to control sonos speakers
 
+## Sonos controller skill
+A simple mycroft skill to control sonos speakers
 ## Description 
 Uses the SoCo library to control sonos speakers
 
