@@ -1,0 +1,1 @@
+sonos play album {album_name} (| by {album_artist})
