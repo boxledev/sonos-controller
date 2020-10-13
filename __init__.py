@@ -147,11 +147,6 @@ class SonosController(MycroftSkill):
                 self.dictSpeakers[self.active_speaker].pause()
             if command == "previous":
                 self.dictSpeakers[self.active_speaker].previous()
-            if command == "favorite" or command == "favorites":
-                self.dictSpeakers[self.active_speaker].clear_queue()
-                self.dictSpeakers[self.active_speaker].add_uri_to_queue(uri=self.dictPlaylist['Favorite'])
-                self.dictSpeakers[self.active_speaker].play_mode = "SHUFFLE_NOREPEAT"
-                self.dictSpeakers[self.active_speaker].play_from_queue(index=0)
             if command == "song" or command == "what's playing":
                 self.speak(self.dictSpeakers[self.active_speaker].get_current_track_info()['title'] + " by " +
                            self.dictSpeakers[self.active_speaker].get_current_track_info()['artist'])
